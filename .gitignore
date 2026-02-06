@@ -1,0 +1,45 @@
+# Backend
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.class
+backend/.idea/
+backend/*.iml
+backend/logs/
+backend/uploads/
+
+# Frontend
+frontend-admin/node_modules/
+frontend-admin/dist/
+frontend-admin/.vite/
+frontend-admin/*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# AI Tools
+.cursor/
+.claude/
+.kiro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
